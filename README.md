@@ -1,5 +1,29 @@
-# CursoAngular
+# CursoAngular                                          
+![angular](https://user-images.githubusercontent.com/49313740/184141450-41f509c3-37b9-4ebb-9c4a-49d3a45c6ca1.png)
+## Instalação
+npm install -g @angular/cli
+## Criação
+ng new
+## Servidor
+ng server
+______________________________________________________________________________________________________________________________________________________________________
+## Estrutura do Angular
+node_modules: dependências do projeto;
 
+src: onde vamos progrmar a aplicação;
+
+src/app: pasta principal para componentes, services e etc;
+
+Os componentes são divididos em partes: TS, HTML, CSS e Testes;
+## Criando componente
+Para criar um componente podemos utilizar o CLI;
+
+O comando é: ng generate component components/nome do componente
+
+Todos os arquivos necessários serão criados no projeto;
+
+Para importar o componente basta utilizar o seu selector em um HTML de outro componente;
+_________________________________________________________________________________________________________________________________________________________________________
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server

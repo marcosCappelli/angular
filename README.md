@@ -23,6 +23,16 @@ O comando é: ng generate component components/nome do componente
 Todos os arquivos necessários serão criados no projeto;
 
 Para importar o componente basta utilizar o seu selector em um HTML de outro componente;
+## Interpolação de dados
+A interpolação de dados é um recurso que vai nos ensinar a trabalhar com os componentes de Angular;
+
+Vamos criar nossas varáveis no arquivo .ts, dentro da classe;
+
+Ou seja, estas variáveis são propriedades da classe;
+
+E então teremos acesso a estes dados no arquivo .html, o template;
+
+A impressão é feita através de: {{ dado }} 
 _________________________________________________________________________________________________________________________________________________________________________
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 

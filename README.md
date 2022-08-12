@@ -23,6 +23,13 @@ O comando é: ng generate component components/nome do componente
 Todos os arquivos necessários serão criados no projeto;
 
 Para importar o componente basta utilizar o seu selector em um HTML de outro componente;
+## CSS no Angular
+Os estilos em aplicações de angular podem ser feitos de duas maneiras;
+
+GLOBAL: utilizando o arquivo styles.css, que fica em SRC;
+
+SCOPED: estilos a nível de componente, criamos quando damos um generate;
+
 _________________________________________________________________________________________________________________________________________________________________________
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 

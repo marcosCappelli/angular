@@ -5,7 +5,7 @@ npm install -g @angular/cli
 ## Criação
 ng new
 ## Servidor
-ng server
+ng serve
 ______________________________________________________________________________________________________________________________________________________________________
 ## Estrutura do Angular
 node_modules: dependências do projeto;
@@ -29,6 +29,12 @@ Os estilos em aplicações de angular podem ser feitos de duas maneiras;
 GLOBAL: utilizando o arquivo styles.css, que fica em SRC;
 
 SCOPED: estilos a nível de componente, criamos quando damos um generate;
+## Compartilhamento dados
+Em angular podemos compartilhar dados do componente pai com o componente filho;
+
+Para isso, vamos disponobilizar na chamada do componente o nome do  dado que será recebido com a seguinte sintaxe: [dado];
+
+E no código .ts do componente filho vamos utilizar o decorator @Input, que tem como papel entregar o dado para o template;
 
 _________________________________________________________________________________________________________________________________________________________________________
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.

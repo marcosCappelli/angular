@@ -35,6 +35,14 @@ Em angular podemos compartilhar dados do componente pai com o componente filho;
 Para isso, vamos disponobilizar na chamada do componente o nome do  dado que será recebido com a seguinte sintaxe: [dado];
 
 E no código .ts do componente filho vamos utilizar o decorator @Input, que tem como papel entregar o dado para o template;
+## Diretivas
+Em angular temos um recurso chamdo diretivas;
+
+Que podem realizar diversas funções no sistema, como aplicar estilos a um elemento;
+
+Elas começam sempre com ng, o nome fica como: ngAlgumaCoisa;
+
+
 
 _________________________________________________________________________________________________________________________________________________________________________
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.

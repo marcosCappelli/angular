@@ -44,11 +44,21 @@ Elas começam sempre com ng, o nome fica como: ngAlgumaCoisa;
 ## Renderização condicional
 É possível exibir determinado conteúdo por meio de uma condicional;
 
-Utilizamos a diretiva nglf para isso;
+Utilizamos a diretiva ngIf para isso;
 
 Os valores podem ser dinâmicos (propriedades), mas podemos realizar outros tipos de comparação;
 
 Há a possibilidade também de imprimir um cenário para validação de falso, como o else;
+## Eventos
+Podemos ativar eventos nos componentes para disparar algum método;
+
+Um evento clássico que utilizamos muito é o click;
+
+A sintaxe é: (click)="algumaFuncao()"
+
+Os métodos ficam na classe;
+
+Esse recurso é usado para acessar API´s
 
 
 

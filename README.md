@@ -41,6 +41,14 @@ Em angular temos um recurso chamdo diretivas;
 Que podem realizar diversas funções no sistema, como aplicar estilos a um elemento;
 
 Elas começam sempre com ng, o nome fica como: ngAlgumaCoisa;
+## Renderização condicional
+É possível exibir determinado conteúdo por meio de uma condicional;
+
+Utilizamos a diretiva nglf para isso;
+
+Os valores podem ser dinâmicos (propriedades), mas podemos realizar outros tipos de comparação;
+
+Há a possibilidade também de imprimir um cenário para validação de falso, como o else;
 
 
 

@@ -6,10 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent implements OnInit {
+  show: boolean = false;
+  name: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  showMessage(): void {
+    this.show = !this.show; //toggle
+  }
+
+  nameMessage(): void {
+    this.name = !this.name;
+  }
+
+  
 }

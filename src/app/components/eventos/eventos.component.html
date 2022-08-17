@@ -1,1 +1,9 @@
-<p>eventos works!</p>
+<div class="class">
+    <p *ngIf="show">Exibindo mensagem!</p>
+    <button (click)="showMessage()">clique em mim</button>
+    <div>
+    <p *ngIf="name">Blumenau!</p>
+    <button (click)="nameMessage()">Qual o nome?</button>
+    </div>
+</div>
+

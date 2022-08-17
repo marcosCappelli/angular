@@ -21,6 +21,4 @@ export class EventosComponent implements OnInit {
   nameMessage(): void {
     this.name = !this.name;
   }
-
-  
 }

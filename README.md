@@ -79,6 +79,14 @@ Padronizando ele e facilitando a manutenção;
 Vamos implementar uma interface a nossa lista de animais;
 
 E fazer um evento que também utilizará este recurso;
+## Two way data binding
+O Two way data binding é um recurso muito interessante para trabalho com formulários;
+
+Basicamente conseguimos alterar props e o template com o preenchimento de inputs;
+
+É necessário importar o FormsModule no componente principal;
+
+E também declarar o ngModel no input, além de preencher também o atributo name, todos com o mesmo valor;
 
 
 

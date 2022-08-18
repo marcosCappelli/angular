@@ -69,6 +69,16 @@ E no template do componente vamos utilizar o "ngFor";
 A sintaxe é: "ngFor="let item of items"
 
 Desta maneira podemos renderizar template baseado em dados;
+## Importância das interfaces
+Toda entidade que vamos trabalhar precisa de uma interface;
+
+Isso vai tornar nosso código maos simples ao longo do programa;
+
+Padronizando ele e facilitando a manutenção;
+
+Vamos implementar uma interface a nossa lista de animais;
+
+E fazer um evento que também utilizará este recurso;
 
 
 

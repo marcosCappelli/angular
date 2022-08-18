@@ -79,7 +79,14 @@ Padronizando ele e facilitando a manutenção;
 Vamos implementar uma interface a nossa lista de animais;
 
 E fazer um evento que também utilizará este recurso;
+## Pipe operators
+Os pipe operators são recursos para trabalhar com strings nos templates;
 
+Podemos realizar diversas funções, como deixar o texto em caixa alta;
+
+A sintaxe é: {{ dado | algumPipeOperator }}
+
+Desta maneira nos poupamos de regras de CSS ou manipulação de strings com JS;
 
 
 _________________________________________________________________________________________________________________________________________________________________________

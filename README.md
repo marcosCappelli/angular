@@ -59,6 +59,16 @@ A sintaxe é: (click)="algumaFuncao()"
 Os métodos ficam na classe;
 
 Esse recurso é usado para acessar API´s
+## Loop
+Outro recurso importante é o loop em listas;
+
+Para isso vamos precisar de uma propriedade com os itens da lista;
+
+E no template do componente vamos utilizar o "ngFor";
+
+A sintaxe é: "ngFor="let item of items"
+
+Desta maneira podemos renderizar template baseado em dados;
 
 
 

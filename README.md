@@ -105,6 +105,14 @@ Precisamos importar dois pacotes: HttpClient e HttpHeaders;
 Neste exemplo utilizaremos uma API local para simular as request, com o json-server;
 
 Por último, é necessário inicializar o módulo HttpClientModule em app.module.ts;
+## Carregando dado individual
+Para resgatar um dado do banco vamos precisar criar uma rota dinâmica no nosso router;
+
+Baseado no Id do item teremos a seleção de dado no banco, geralmente o id vem pela URL;
+
+Para resgatar parâmetros da URL vamos utilizar o ActivatedRoute, um módulo da Angular;
+
+A lógica para requisições HTTP ficará no service;
 
 
 

@@ -105,6 +105,14 @@ Precisamos importar dois pacotes: HttpClient e HttpHeaders;
 Neste exemplo utilizaremos uma API local para simular as request, com o json-server;
 
 Por último, é necessário inicializar o módulo HttpClientModule em app.module.ts;
+## Deletando registro
+Agora vamos refatorar nossa ação de remover registro com a aexecução HTTP;
+
+Criaremos outro método no service;
+
+E ajustaremos a maneira que o método da classe do componente é executado;
+
+Com simples mudanças estaremos interagindo com a API!
 
 
 
